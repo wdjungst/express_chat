@@ -1,0 +1,11 @@
+<% scripts.forEach( function(script) { %>
+  <script type='text/javascript' src=<%= script %> ></script>
+<% }); %>
+<h1>Chat</h1>
+<div id='status'></div>
+<ul id='people'></ul>
+<div id='messages'></div>
+<form id='chat_form'>
+  <input type='text' id='chat_input' />
+  <button type='submit'>Send</button>
+</form>
